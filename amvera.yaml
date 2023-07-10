@@ -2,11 +2,11 @@ meta:
   environment: jvm
   toolchain:
     name: maven
-    version: 17
+    version: 11
 
 build:
   args: spring-boot:repackage -Pproduction
 
 run:
-  jarName: WordsApp-1.0.0.jar
+  jarName: Words-0.0.1-SNAPSHOT.jar
   containerPort: 80
